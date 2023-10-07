@@ -1,0 +1,1 @@
+alert("Chào mừng bạn đến với game cờ caro")
