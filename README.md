@@ -119,7 +119,7 @@ Bước 3: Hệ thống sẽ đặt quân cờ của mình vào ô vuông trốn
 -	Mô tả từng Use Case:
 
 |Tiêu đề|Nội dung|
-|:------|-------:|
+|:-----:|:------:|
 |Tên Use Case|Đăng kí|
 |Mô tả|Cho phép người dùng đăng ký|
 |Actor|Người chơi|
