@@ -116,6 +116,7 @@ Bước 3: Hệ thống sẽ đặt quân cờ của mình vào ô vuông trốn
    * Cơ sở dữ liệu lưu trữ dữ liệu người dùng
 ### Các mô hình đặc tả yêu cầu
 -	Use Case Diagram của phần mềm:
+![image](https://github.com/lqt1893/3V2T/assets/93394403/2b726649-cc0d-4679-9786-2c97a2383dd3)
 -	Mô tả từng Use Case:
 
 |Tiêu đề|Nội dung|
@@ -227,4 +228,5 @@ Bước 3: Hệ thống sẽ đặt quân cờ của mình vào ô vuông trốn
 |Hậu điều kiện|Thống kê thành công|
 
 - Sơ đồ BPM (Business Process Model) cho từng nghiệp vụ:
+![image](https://github.com/lqt1893/3V2T/assets/93394403/396accd0-9e9c-41b2-b361-6f03fb909f27)
 ***
