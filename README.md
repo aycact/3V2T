@@ -1,6 +1,79 @@
 # 3V2T
-## Github công nghệ phần mềm cờ caro
+## **Github công nghệ phần mềm cờ caro**
 ***
+## TỔNG QUAN
+### Giới thiệu
+ Công nghệ thông tin trong giai đoạn hiện nay đang có những bước phát triển như vũ bão trên mọi lĩnh vực hoạt động ở khắp nơi trên thế giới. Cùng với sự phát triển vượt bậc của CNTT, con người đã cho ra đời rất nhiều sản phẩm mang tính giải trí mạnh mẽ và hấp dẫn, tuy nhiên những chương trình nhỏ mang tính trí tuệ vẫn chiếm một thị phần nào đó trong lĩnh vực này. Một trong những chương trình đó phải kể tới là các chương trình chơi cờ, đại diện là “Trò chơi cờ Caro". Cờ Caro được khá nhiều người ưa thích vì tính đơn giản của trò chơi nhưng bản thân lại mang tính trí tuệ khá cao.
+ Cờ Caro là một trò chơi dân gian dùng viết trên bàn cờ giấy với số lượng ô không giới hạn. Hai người chơi, người dùng ký hiệu O, người kia dùng ký hiệu X, lần lượt điền ký hiệu của mình vào các ô. Người thắng là người tạo được đầu tiên một chuỗi liên tục gồm 5 ô hàng ngang, hàng dọc hoặc chéo.
+ Từ các kiến thức sẵn có nhóm em quyết định sẽ tạo ra một chương trình chơi cờ caro.
+ Lý do chọn đề tài:
+  -	Trò chơi cờ caro là một trò chơi phổ biến, được nhiều người yêu thích, có luật chơi đơn giản, dễ học, dễ chơi, phù hợp với mọi lứa tuổi.
+  -	Web chơi cờ caro có thể được phát triển với nhiều tính năng hấp dẫn, giúp người chơi có được trải nghiệm tốt hơn.
+  -	Trò chơi này có thể được chơi trực tuyến, mang lại sự tiện lợi cho người chơi.
+  -	Việc xây dựng web chơi cờ caro là một cơ hội để học hỏi và rèn luyện kỹ năng lập trình.
+### Mục tiêu và phạm vi đề tài
+Tạo giao diện hấp dẫn và thân thiện: Xây dựng một giao diện người dùng đẹp mắt, dễ sử dụng và tương tác. Đảm bảo rằng người dùng có trải nghiệm trực quan và thoải mái khi sử dụng ứng dụng. phạm vi không bao gồm việc phát triển giao diện đa nền tảng, mà tập trung vào các trình duyệt phổ biến và đảm bảo sự tương thích trên các trình duyệt này.
+Đơn giản hóa đăng ký và đăng nhập: Cung cấp một hệ thống đăng ký và đăng nhập dễ tiếp cận và sử dụng trên các trình duyệt phổ biến. Quá trình đăng ký và đăng nhập nhanh chóng, thuận tiện và không gây khó khăn cho người dùng.  Không bao gồm việc tích hợp các cơ chế bảo mật phức tạp như xác thực hai yếu tố hoặc đăng nhập bằng các dịch vụ bên thứ ba.
+Hỗ trợ chơi đơn và chơi cùng người chơi khác: Tạo ra chế độ chơi đơn cho phép người dùng tùy chỉnh độ khó và thách thức bản thân. Đồng thời, cung cấp khả năng chơi cùng người chơi khác trên cùng một thiết bị, mang đến trải nghiệm chơi game tương tác và thú vị.
+Tích hợp tính năng lưu và tạo ván đấu mới: Cho phép người dùng lưu trạng thái ván đấu với máy và tiếp tục chơi sau này. Tạo cơ chế tạo ván đấu mới để người dùng có thể thử thách và khám phá nhiều hơn. Tuy nhiên, tính năng này không áp dụng cho việc chơi với người chơi khác, chỉ giới hạn trong phạm vi chơi đơn.
+Tối ưu hóa hiệu suất và xử lý mượt mà: Tối ưu hóa hệ thống để đảm bảo xử lý nhanh chóng và mượt mà. Áp dụng thuật toán thông minh để xử lý đường đi của máy và tính toán kết quả một cách hiệu quả và chính xác nhất.
+### Phát biểu bài toán
+Trong thời điểm hiện tại, nhu cầu giải trí thông qua trò chơi đã trở thành một yếu tố không thể thiếu trong cuộc sống hàng ngày của con người. Trò chơi trực tuyến ngay trên trình duyệt web mà không cần cài đặt phần mềm bổ sung đã trở thành một xu hướng phổ biến và được ưa chuộng ngày càng nhiều.
+Bài toán của chúng ta là phát triển một trò chơi Caro trực tuyến trên nền tảng web, nhằm đáp ứng nhu cầu giải trí của người chơi chỉ với việc sở hữu một trình duyệt và một tài khoản. Trò chơi này sẽ mang đến cho người dùng một trải nghiệm chơi game tuyệt vời mà không cần đầu tư quá nhiều vào phần cứng hay phần mềm phức tạp.
+Trò chơi Caro trên web sẽ được xây dựng với một giao diện người dùng hấp dẫn, dễ sử dụng và thân thiện. Giao diện này sẽ được thiết kế bằng HTML, CSS và JavaScript, với sự hỗ trợ của thư viện ReactJS để tạo ra một trải nghiệm chơi game mượt mà và nhanh chóng. Điều này cho phép người chơi tận hưởng trò chơi một cách trực quan và thú vị, với các hiệu ứng động, âm thanh sống động và giao diện tương tác.
+Để tối ưu hiệu suất và mang đến trải nghiệm người dùng mượt mà hơn, trò chơi Caro trực tuyến sẽ được phát triển dưới dạng một trang web đơn trang (Single Page Application). Điều này cho phép trò chơi chỉ tải lại các phần cần thiết khi người dùng tương tác, giúp giảm thời gian phản hồi và cải thiện trải nghiệm chơi game trực tuyến.
+Server của web cho trò chơi Caro sẽ được xây dựng trên môi trường NodeJS, sử dụng ngôn ngữ lập trình JavaScript. Sử dụng NodeJS giúp xây dựng một server có khả năng xử lý hiệu suất tốt, cung cấp khả năng mở rộng linh hoạt khi có nhu cầu. Để lưu trữ dữ liệu của trò chơi, chúng ta sẽ sử dụng cơ sở dữ liệu MySQL. MySQL là một hệ quản trị cơ sở dữ liệu phổ biến và tin cậy, cho phép lưu trữ và truy vấn dữ liệu một cách chặt chẽ và hiệu quả.
+Để cung cấp các dịch vụ cho người dùng và admin dễ dàng quản lý, tối ưu và chỉnh sửa trò chơi, chúng ta sẽ xây dựng các API từ server. API sẽ cho phép người dùng truy cập vào các chức năng và tính năng của trò chơi, bao gồm tạo tài khoản, đăng nhập, tìm kiếm và tham gia các trận đấu Caro. Các API này cũng sẽ hỗ trợ việc quản lý dữ liệu người dùng, lưu trữ lịch sử chơi và điểm số, và cung cấp thông tin về các trận đấu đã diễn ra và kết quả của chúng.
+***
+## KHẢO SÁT HIỆN TRẠNG VÀ XÁC ĐỊNH YÊU CẦU
+### Khảo sát hiện trạng
+- Giới thiệu sơ lược về hệ thống mà nhóm đã khảo sát:
+ +	Bàn cờ: Bàn cờ caro có kích thước 15x15 ô vuông. Các ô vuông được đánh số từ 1 đến 15.
+ +	Quân cờ: Mỗi người chơi sẽ điều khiển một quân cờ có hình dạng khác nhau là O hoặc X . Quân cờ được đặt vào các ô vuông trống trên bàn cờ.
+ +	Luật chơi: Luật chơi cờ caro đồ án tương tự như luật chơi cờ caro truyền thống. Người chơi sẽ thay phiên nhau đặt quân cờ của mình vào các ô vuông trống trên bàn cờ. Mục tiêu của trò chơi là tạo thành một hàng liên tiếp 5 quân cờ của mình theo chiều ngang, dọc hoặc chéo. Người chơi đầu tiên tạo được hàng liên tiếp 5 quân cờ sẽ giành chiến thắng.
+ +	Giao diện người dùng: Giao diện người dùng của hệ thống chơi cờ caro đồ án được thiết kế đơn giản và dễ sử dụng. Người chơi có thể dễ dàng thao tác trên giao diện để chơi cờ caro.
+ +	Thuật toán AI: Hệ thống chơi cờ caro đồ án sử dụng thuật toán AI để điều khiển quân cờ của máy. Thuật toán AI này được thiết kế để có thể chơi cờ caro ở mức độ cao.
+-	Trình bày chi tiết quy trình nghiệp vụ của từng công việc diễn ra bên trong hệ thống:
+- Quy trình nghiệp vụ khởi động hệ thống
+Bước 1: Người chơi khởi động hệ thống chơi cờ caro đồ án bằng cách nhấn vào biểu tượng của hệ thống trên màn hình máy tính.
+Bước 2: Hệ thống sẽ kiểm tra các yêu cầu hệ thống và khởi động các thành phần cần thiết.
+Bước 3: Hệ thống sẽ hiển thị giao diện người dùng cho người chơi.
+- Quy trình nghiệp vụ chọn chế độ chơi
+Bước 1: Người chơi chọn tab "Chế độ chơi" trên giao diện người dùng.
+Bước 2: Hệ thống sẽ hiển thị danh sách các chế độ chơi.
+Bước 3: Người chơi chọn chế độ chơi mong muốn.
+- Quy trình nghiệp vụ chọn màu quân cờ
+Bước 1: Người chơi chọn tab "Màu quân cờ" trên giao diện người dùng.
+Bước 2: Hệ thống sẽ hiển thị danh sách các màu quân cờ.
+Bước 3: Người chơi chọn màu quân cờ mong muốn.
+- Quy trình nghiệp vụ bắt đầu trò chơi
+Bước 1: Người chơi nhấn vào nút "Bắt đầu" trên giao diện người dùng.
+Bước 2: Hệ thống sẽ bắt đầu trò chơi và hiển thị bàn cờ trống.
+Bước 3: Người chơi bắt đầu trò chơi bằng cách đặt quân cờ của mình vào ô vuông trống đầu tiên.
+- Quy trình nghiệp vụ thay phiên nhau đặt quân cờ
+Bước 1: Người chơi chọn ô vuông trống mà họ muốn đặt quân cờ.
+Bước 2: Người chơi nhấn vào nút "Đặt quân cờ" trên giao diện người dùng.
+Bước 3: Hệ thống sẽ đặt quân cờ của người chơi vào ô vuông đã chọn.
+Bước 4: Người chơi tiếp theo sẽ thực hiện bước 1 đến bước 3 để đặt quân cờ của mình.
+- Quy trình nghiệp vụ tạo hàng liên tiếp 5 quân cờ
+Bước 1: Người chơi đặt 5 quân cờ của mình thành một hàng liên tiếp theo chiều ngang, dọc hoặc chéo.
+Bước 2: Người chơi đó sẽ giành chiến thắng.
+- Quy trình nghiệp vụ kết thúc trò chơi
+Bước 1: Trò chơi kết thúc khi một trong hai người chơi tạo thành một hàng liên tiếp 5 quân cờ của mình hoặc khi không còn ô vuông trống trên bàn cờ.
+Bước 2: Hệ thống sẽ hiển thị thông báo kết quả trò chơi.
+- Quy trình nghiệp vụ chơi cờ caro 1 người
+Bước 1: Người chơi chọn chế độ chơi "1 người".
+Bước 2: Hệ thống sẽ tạo ra một đối thủ AI để chơi cùng người chơi.
+Bước 3: Người chơi và đối thủ AI sẽ thay phiên nhau đặt quân cờ theo quy trình nghiệp vụ thay phiên nhau đặt quân cờ.
+Bước 4: Người chơi hoặc đối thủ AI sẽ giành chiến thắng theo quy trình nghiệp vụ tạo hàng liên tiếp 5 quân cờ.
+- Quy trình nghiệp vụ chơi cờ caro 2 người
+Bước 1: Hai người chơi chọn chế độ chơi "2 người".
+Bước 2: Hai người chơi sẽ thay phiên nhau đặt quân cờ theo quy trình nghiệp vụ thay phiên nhau đặt quân cờ.
+Bước 3: Hai người chơi sẽ giành chiến thắng theo quy trình nghiệp vụ tạo hàng liên tiếp 5 quân cờ.
+- Quy trình nghiệp vụ sử dụng thuật toán AI
+Bước 1: Hệ thống sẽ sử dụng thuật toán AI để đánh giá các khả năng đặt quân cờ của mình.
+Bước 2: Hệ thống sẽ chọn khả năng đặt quân cờ có khả năng chiến thắng cao nhất.
+Bước 3: Hệ thống sẽ đặt quân cờ của mình vào ô vuông trống theo khả năng đã chọn.
 ### Yêu cầu phần mềm
 #### Yêu cầu chức năng
 - Kết nạp người chơi mới
@@ -41,4 +114,18 @@
    * Máy chủ web
    * Các dịch vụ cung cấp cho người dùng
    * Cơ sở dữ liệu lưu trữ dữ liệu người dùng
+### Các mô hình đặc tả yêu cầu
+-	Use Case Diagram của phần mềm:
+-	Mô tả từng Use Case:
+
+|Tiêu đề|Nội dung|
+------------------
+|Tên Use Case|Đăng kí|
+|Mô tả|Cho phép người dùng đăng ký|
+|Actor|Người chơi|
+|Điều kiện kích hoạt|Khi người dùng chọn chức năng đăng ký|
+|Tiền điều kiện|Người dùng chưa có tài khoản|
+|Hậu điều kiện|Đăng ký thành công|
+
+- Sơ đồ BPM (Business Process Model) cho từng nghiệp vụ:
 ***
