@@ -75,7 +75,7 @@
   + Bước 2: Hệ thống sẽ chọn khả năng đặt quân cờ có khả năng chiến thắng cao nhất.
   + Bước 3: Hệ thống sẽ đặt quân cờ của mình vào ô vuông trống theo khả năng đã chọn.
 ### Yêu cầu phần mềm
-Yêu cầu chức năng
+**Yêu cầu chức năng**
 - Kết nạp người chơi mới
   + Người chơi có thể đăng ký tài khoản mới bằng cách cung cấp thông tin cơ bản như tên, email và mật khẩu.
   + Email xác nhận sẽ được gửi đến người chơi sau khi đăng ký thành công.
@@ -95,13 +95,13 @@ Yêu cầu chức năng
   + Người chơi có thể xem thứ hạng của bản thân trên tổng số người chơi.
 - Quản lý người chơi
   + Admin có thể thêm, xóa, sửa, cập nhật thông tin người chơi và thống kê người chơi
-Yêu cầu phi chức năng
+**Yêu cầu phi chức năng**
 - Yêu cầu về hiệu năng
   + Hệ thống phải đáp ứng được nhu cầu chơi game của nhiều người cùng lúc.
   + Thời gian phản hồi của hệ thống phải nhanh chóng.
 - Yêu cầu về khả năng mở rộng
   + Hệ thống phải có khả năng mở rộng để đáp ứng nhu cầu phát triển trong tương lai.
-Kiến trúc hệ thống
+**Kiến trúc hệ thống**
 - Mô hình kiến trúc
   + Hệ thống được thiết kế theo mô hình client-server.
   + Client là trình duyệt web của người dùng.
