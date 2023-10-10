@@ -28,52 +28,52 @@
 ## KHẢO SÁT HIỆN TRẠNG VÀ XÁC ĐỊNH YÊU CẦU
 ### Khảo sát hiện trạng
 - Giới thiệu sơ lược về hệ thống mà nhóm đã khảo sát:
- +	Bàn cờ: Bàn cờ caro có kích thước 15x15 ô vuông. Các ô vuông được đánh số từ 1 đến 15.
- +	Quân cờ: Mỗi người chơi sẽ điều khiển một quân cờ có hình dạng khác nhau là O hoặc X . Quân cờ được đặt vào các ô vuông trống trên bàn cờ.
- +	Luật chơi: Luật chơi cờ caro đồ án tương tự như luật chơi cờ caro truyền thống. Người chơi sẽ thay phiên nhau đặt quân cờ của mình vào các ô vuông trống trên bàn cờ. Mục tiêu của trò chơi là tạo thành một hàng liên tiếp 5 quân cờ của mình theo chiều ngang, dọc hoặc chéo. Người chơi đầu tiên tạo được hàng liên tiếp 5 quân cờ sẽ giành chiến thắng.
- +	Giao diện người dùng: Giao diện người dùng của hệ thống chơi cờ caro đồ án được thiết kế đơn giản và dễ sử dụng. Người chơi có thể dễ dàng thao tác trên giao diện để chơi cờ caro.
- +	Thuật toán AI: Hệ thống chơi cờ caro đồ án sử dụng thuật toán AI để điều khiển quân cờ của máy. Thuật toán AI này được thiết kế để có thể chơi cờ caro ở mức độ cao.
+  +	Bàn cờ: Bàn cờ caro có kích thước 15x15 ô vuông. Các ô vuông được đánh số từ 1 đến 15.
+  +	Quân cờ: Mỗi người chơi sẽ điều khiển một quân cờ có hình dạng khác nhau là O hoặc X . Quân cờ được đặt vào các ô vuông trống trên bàn cờ.
+  +	Luật chơi: Luật chơi cờ caro đồ án tương tự như luật chơi cờ caro truyền thống. Người chơi sẽ thay phiên nhau đặt quân cờ của mình vào các ô vuông trống trên bàn cờ. Mục tiêu của trò chơi là tạo thành một hàng liên tiếp 5 quân cờ của mình theo chiều ngang, dọc hoặc chéo. Người chơi đầu tiên tạo được hàng liên tiếp 5 quân cờ sẽ giành chiến thắng.
+  +	Giao diện người dùng: Giao diện người dùng của hệ thống chơi cờ caro đồ án được thiết kế đơn giản và dễ sử dụng. Người chơi có thể dễ dàng thao tác trên giao diện để chơi cờ caro.
+  +	Thuật toán AI: Hệ thống chơi cờ caro đồ án sử dụng thuật toán AI để điều khiển quân cờ của máy. Thuật toán AI này được thiết kế để có thể chơi cờ caro ở mức độ cao.
 -	Trình bày chi tiết quy trình nghiệp vụ của từng công việc diễn ra bên trong hệ thống:
 - Quy trình nghiệp vụ khởi động hệ thống
- + Bước 1: Người chơi khởi động hệ thống chơi cờ caro đồ án bằng cách nhấn vào biểu tượng của hệ thống trên màn hình máy tính.
- + Bước 2: Hệ thống sẽ kiểm tra các yêu cầu hệ thống và khởi động các thành phần cần thiết.
- + Bước 3: Hệ thống sẽ hiển thị giao diện người dùng cho người chơi.
+  + Bước 1: Người chơi khởi động hệ thống chơi cờ caro đồ án bằng cách nhấn vào biểu tượng của hệ thống trên màn hình máy tính.
+  + Bước 2: Hệ thống sẽ kiểm tra các yêu cầu hệ thống và khởi động các thành phần cần thiết.
+  + Bước 3: Hệ thống sẽ hiển thị giao diện người dùng cho người chơi.
 - Quy trình nghiệp vụ chọn chế độ chơi
- + Bước 1: Người chơi chọn tab "Chế độ chơi" trên giao diện người dùng.
- + Bước 2: Hệ thống sẽ hiển thị danh sách các chế độ chơi.
- + Bước 3: Người chơi chọn chế độ chơi mong muốn.
+  + Bước 1: Người chơi chọn tab "Chế độ chơi" trên giao diện người dùng.
+  + Bước 2: Hệ thống sẽ hiển thị danh sách các chế độ chơi.
+  + Bước 3: Người chơi chọn chế độ chơi mong muốn.
 - Quy trình nghiệp vụ chọn màu quân cờ
- + Bước 1: Người chơi chọn tab "Màu quân cờ" trên giao diện người dùng.
- + Bước 2: Hệ thống sẽ hiển thị danh sách các màu quân cờ.
- + Bước 3: Người chơi chọn màu quân cờ mong muốn.
+  + Bước 1: Người chơi chọn tab "Màu quân cờ" trên giao diện người dùng.
+  + Bước 2: Hệ thống sẽ hiển thị danh sách các màu quân cờ.
+  + Bước 3: Người chơi chọn màu quân cờ mong muốn.
 - Quy trình nghiệp vụ bắt đầu trò chơi
- + Bước 1: Người chơi nhấn vào nút "Bắt đầu" trên giao diện người dùng.
- + Bước 2: Hệ thống sẽ bắt đầu trò chơi và hiển thị bàn cờ trống.
- + Bước 3: Người chơi bắt đầu trò chơi bằng cách đặt quân cờ của mình vào ô vuông trống đầu tiên.
+  + Bước 1: Người chơi nhấn vào nút "Bắt đầu" trên giao diện người dùng.
+  + Bước 2: Hệ thống sẽ bắt đầu trò chơi và hiển thị bàn cờ trống.
+  + Bước 3: Người chơi bắt đầu trò chơi bằng cách đặt quân cờ của mình vào ô vuông trống đầu tiên.
 - Quy trình nghiệp vụ thay phiên nhau đặt quân cờ
- + Bước 1: Người chơi chọn ô vuông trống mà họ muốn đặt quân cờ.
- + Bước 2: Người chơi nhấn vào nút "Đặt quân cờ" trên giao diện người dùng.
- + Bước 3: Hệ thống sẽ đặt quân cờ của người chơi vào ô vuông đã chọn.
- + Bước 4: Người chơi tiếp theo sẽ thực hiện bước 1 đến bước 3 để đặt quân cờ của mình.
+  + Bước 1: Người chơi chọn ô vuông trống mà họ muốn đặt quân cờ.
+  + Bước 2: Người chơi nhấn vào nút "Đặt quân cờ" trên giao diện người dùng.
+  + Bước 3: Hệ thống sẽ đặt quân cờ của người chơi vào ô vuông đã chọn.
+  + Bước 4: Người chơi tiếp theo sẽ thực hiện bước 1 đến bước 3 để đặt quân cờ của mình.
 - Quy trình nghiệp vụ tạo hàng liên tiếp 5 quân cờ
- + Bước 1: Người chơi đặt 5 quân cờ của mình thành một hàng liên tiếp theo chiều ngang, dọc hoặc chéo.
- + Bước 2: Người chơi đó sẽ giành chiến thắng.
+  + Bước 1: Người chơi đặt 5 quân cờ của mình thành một hàng liên tiếp theo chiều ngang, dọc hoặc chéo.
+  + Bước 2: Người chơi đó sẽ giành chiến thắng.
 - Quy trình nghiệp vụ kết thúc trò chơi
- + Bước 1: Trò chơi kết thúc khi một trong hai người chơi tạo thành một hàng liên tiếp 5 quân cờ của mình hoặc khi không còn ô vuông trống trên bàn cờ.
- + Bước 2: Hệ thống sẽ hiển thị thông báo kết quả trò chơi.
+  + Bước 1: Trò chơi kết thúc khi một trong hai người chơi tạo thành một hàng liên tiếp 5 quân cờ của mình hoặc khi không còn ô vuông trống trên bàn cờ.
+  + Bước 2: Hệ thống sẽ hiển thị thông báo kết quả trò chơi.
 - Quy trình nghiệp vụ chơi cờ caro 1 người
- + Bước 1: Người chơi chọn chế độ chơi "1 người".
- + Bước 2: Hệ thống sẽ tạo ra một đối thủ AI để chơi cùng người chơi.
- + Bước 3: Người chơi và đối thủ AI sẽ thay phiên nhau đặt quân cờ theo quy trình nghiệp vụ thay phiên nhau đặt quân cờ.
- + Bước 4: Người chơi hoặc đối thủ AI sẽ giành chiến thắng theo quy trình nghiệp vụ tạo hàng liên tiếp 5 quân cờ.
+  + Bước 1: Người chơi chọn chế độ chơi "1 người".
+  + Bước 2: Hệ thống sẽ tạo ra một đối thủ AI để chơi cùng người chơi.
+  + Bước 3: Người chơi và đối thủ AI sẽ thay phiên nhau đặt quân cờ theo quy trình nghiệp vụ thay phiên nhau đặt quân cờ.
+  + Bước 4: Người chơi hoặc đối thủ AI sẽ giành chiến thắng theo quy trình nghiệp vụ tạo hàng liên tiếp 5 quân cờ.
 - Quy trình nghiệp vụ chơi cờ caro 2 người
- + Bước 1: Hai người chơi chọn chế độ chơi "2 người".
- + Bước 2: Hai người chơi sẽ thay phiên nhau đặt quân cờ theo quy trình nghiệp vụ thay phiên nhau đặt quân cờ.
- + Bước 3: Hai người chơi sẽ giành chiến thắng theo quy trình nghiệp vụ tạo hàng liên tiếp 5 quân cờ.
+  + Bước 1: Hai người chơi chọn chế độ chơi "2 người".
+  + Bước 2: Hai người chơi sẽ thay phiên nhau đặt quân cờ theo quy trình nghiệp vụ thay phiên nhau đặt quân cờ.
+  + Bước 3: Hai người chơi sẽ giành chiến thắng theo quy trình nghiệp vụ tạo hàng liên tiếp 5 quân cờ.
 - Quy trình nghiệp vụ sử dụng thuật toán AI
- + Bước 1: Hệ thống sẽ sử dụng thuật toán AI để đánh giá các khả năng đặt quân cờ của mình.
- + Bước 2: Hệ thống sẽ chọn khả năng đặt quân cờ có khả năng chiến thắng cao nhất.
- + Bước 3: Hệ thống sẽ đặt quân cờ của mình vào ô vuông trống theo khả năng đã chọn.
+  + Bước 1: Hệ thống sẽ sử dụng thuật toán AI để đánh giá các khả năng đặt quân cờ của mình.
+  + Bước 2: Hệ thống sẽ chọn khả năng đặt quân cờ có khả năng chiến thắng cao nhất.
+  + Bước 3: Hệ thống sẽ đặt quân cờ của mình vào ô vuông trống theo khả năng đã chọn.
 ### Yêu cầu phần mềm
 #### Yêu cầu chức năng
 - Kết nạp người chơi mới
@@ -81,8 +81,8 @@
   + Email xác nhận sẽ được gửi đến người chơi sau khi đăng ký thành công.
 - Tạo ván đấu
   + Người chơi có thể tạo ván đấu mới với các chế độ chơi như:
-   * Chơi 2 người
-   * Chơi với máy
+    * Chơi 2 người
+    * Chơi với máy
 - Lưu ván đấu đang chơi
   + Người chơi có thể lưu ván đấu đang chơi để tiếp tục sau.
   + Ván đấu được lưu lại sẽ bao gồm thông tin về các nước đi của cả hai người chơi.
@@ -108,124 +108,124 @@
   + Server là máy chủ web cung cấp dịch vụ cho client.
 - Các thành phần chính
   + Thành phần front-end
-   * Trình duyệt web của người dùng
-   * Các trang web cung cấp giao diện cho người dùng
+    * Trình duyệt web của người dùng
+    * Các trang web cung cấp giao diện cho người dùng
   + Thành phần back-end
-   * Máy chủ web
-   * Các dịch vụ cung cấp cho người dùng
-   * Cơ sở dữ liệu lưu trữ dữ liệu người dùng
+    * Máy chủ web
+    * Các dịch vụ cung cấp cho người dùng
+    * Cơ sở dữ liệu lưu trữ dữ liệu người dùng
 ### Các mô hình đặc tả yêu cầu
 -	Use Case Diagram của phần mềm:
 ![image](https://github.com/lqt1893/3V2T/assets/93394403/2b726649-cc0d-4679-9786-2c97a2383dd3)
 -	Mô tả từng Use Case:
 
-|Tiêu đề|Nội dung|
-|:-----:|:------:|
-|Tên Use Case|Đăng kí|
-|Mô tả|Cho phép người dùng đăng ký|
-|Actor|Người chơi|
-|Điều kiện kích hoạt|Khi người dùng chọn chức năng đăng ký|
-|Tiền điều kiện|Người dùng chưa có tài khoản|
-|Hậu điều kiện|Đăng ký thành công|
+  |Tiêu đề|Nội dung|
+  |:-----:|:------:|
+  |Tên Use Case|Đăng kí|
+  |Mô tả|Cho phép người dùng đăng ký|
+  |Actor|Người chơi|
+  |Điều kiện kích hoạt|Khi người dùng chọn chức năng đăng ký|
+  |Tiền điều kiện|Người dùng chưa có tài khoản|
+  |Hậu điều kiện|Đăng ký thành công|
 
-|Tiêu đề|Nội dung|
-|:-----:|:------:|
-|Tên Use Case|Đăng nhập|
-|Mô tả|Cho phép người dùng đăng nhập|
-|Actor|Người chơi, admin|
-|Điều kiện kích hoạt|Khi người dùng chọn chức năng đăng nhập|
-|Tiền điều kiện|Người dùng đã có tài khoản|
-|Hậu điều kiện|Đăng nhập thành công|
+  |Tiêu đề|Nội dung|
+  |:-----:|:------:|
+  |Tên Use Case|Đăng nhập|
+  |Mô tả|Cho phép người dùng đăng nhập|
+  |Actor|Người chơi, admin|
+  |Điều kiện kích hoạt|Khi người dùng chọn chức năng đăng nhập|
+  |Tiền điều kiện|Người dùng đã có tài khoản|
+  |Hậu điều kiện|Đăng nhập thành công|
 
-|Tiêu đề|Nội dung|
-|:-----:|:------:|
-|Tên Use Case|Tiếp tục ván đấu|
-|Mô tả|Cho phép người dùng tiếp tục ván đấu|
-|Actor|Người chơi|
-|Điều kiện kích hoạt|Khi người dùng chọn chức năng tiếp tục ván đấu|
-|Tiền điều kiện|Người dùng đã đăng nhập và đã tạo ván đấu trước đó|
-|Hậu điều kiện|Tiếp tục ván đấu thành công|
+  |Tiêu đề|Nội dung|
+  |:-----:|:------:|
+  |Tên Use Case|Tiếp tục ván đấu|
+  |Mô tả|Cho phép người dùng tiếp tục ván đấu|
+  |Actor|Người chơi|
+  |Điều kiện kích hoạt|Khi người dùng chọn chức năng tiếp tục ván đấu|
+  |Tiền điều kiện|Người dùng đã đăng nhập và đã tạo ván đấu trước đó|
+  |Hậu điều kiện|Tiếp tục ván đấu thành công|
 
-|Tiêu đề|Nội dung|
-|:-----:|:------:|
-|Tên Use Case|Xem thông tin người chơi|
-|Mô tả|Cho phép người dùng xem thông tin|
-|Actor|Người chơi|
-|Điều kiện kích hoạt|Khi người dùng chọn chức năng xem thông tin người chơi|
-|Tiền điều kiện|Người dùng đã có đăng nhập|
-|Hậu điều kiện|Xem thông tin thành công|
+  |Tiêu đề|Nội dung|
+  |:-----:|:------:|
+  |Tên Use Case|Xem thông tin người chơi|
+  |Mô tả|Cho phép người dùng xem thông tin|
+  |Actor|Người chơi|
+  |Điều kiện kích hoạt|Khi người dùng chọn chức năng xem thông tin người chơi|
+  |Tiền điều kiện|Người dùng đã có đăng nhập|
+  |Hậu điều kiện|Xem thông tin thành công|
 
-|Tiêu đề|Nội dung|
-|:-----:|:------:|
-|Tên Use Case|Xem thứ hạng bản thân|
-|Mô tả|Cho phép người dùng xem thứ hạng bản thân|
-|Actor|Người chơi|
-|Điều kiện kích hoạt|Khi người dùng chọn chức năng xem thứ hạng bản thân|
-|Tiền điều kiện|Người dùng đã đăng nhập|
-|Hậu điều kiện|Xem thứ hạng thành công|
+  |Tiêu đề|Nội dung|
+  |:-----:|:------:|
+  |Tên Use Case|Xem thứ hạng bản thân|
+  |Mô tả|Cho phép người dùng xem thứ hạng bản thân|
+  |Actor|Người chơi|
+  |Điều kiện kích hoạt|Khi người dùng chọn chức năng xem thứ hạng bản thân|
+  |Tiền điều kiện|Người dùng đã đăng nhập|
+  |Hậu điều kiện|Xem thứ hạng thành công|
 
-|Tiêu đề|Nội dung|
-|:-----:|:------:|
-|Tên Use Case|Báo lỗi xác thực|
-|Mô tả|Báo lỗi khi đăng nhập không thành công|
-|Actor|Hệ thống|
-|Điều kiện kích hoạt|Khi người dùng đăng nhập không thành công|
-|Tiền điều kiện|Người dùng sai thông tin đăng nhập|
-|Hậu điều kiện|Xuất ra thông báo lỗi|
+  |Tiêu đề|Nội dung|
+  |:-----:|:------:|
+  |Tên Use Case|Báo lỗi xác thực|
+  |Mô tả|Báo lỗi khi đăng nhập không thành công|
+  |Actor|Hệ thống|
+  |Điều kiện kích hoạt|Khi người dùng đăng nhập không thành công|
+  |Tiền điều kiện|Người dùng sai thông tin đăng nhập|
+  |Hậu điều kiện|Xuất ra thông báo lỗi|
 
-|Tiêu đề|Nội dung|
-|:-----:|:------:|
-|Tên Use Case|Xác thực tài khoản|
-|Mô tả|Cấp quyền truy cập khi đăng nhập thành công|
-|Actor|Hệ thống|
-|Điều kiện kích hoạt|Khi người dùng đăng nhập thành công|
-|Tiền điều kiện|Người dùng nhập đúng thông tin đăng nhập|
-|Hậu điều kiện|Cấp quyền truy cập|
+  |Tiêu đề|Nội dung|
+  |:-----:|:------:|
+  |Tên Use Case|Xác thực tài khoản|
+  |Mô tả|Cấp quyền truy cập khi đăng nhập thành công|
+  |Actor|Hệ thống|
+  |Điều kiện kích hoạt|Khi người dùng đăng nhập thành công|
+  |Tiền điều kiện|Người dùng nhập đúng thông tin đăng nhập|
+  |Hậu điều kiện|Cấp quyền truy cập|
 
-|Tiêu đề|Nội dung|
-|:-----:|:------:|
-|Tên Use Case|Kết nạp người chơi|
-|Mô tả|Kết nạp người chơi mới|
-|Actor|Hệ thống|
-|Điều kiện kích hoạt|Khi người dùng đăng ký thành công|
-|Tiền điều kiện|Người chơi đã đăng ký tài khoản|
-|Hậu điều kiện|Cấp quyền truy cập vào tài khoản đã đăng ký|
+  |Tiêu đề|Nội dung|
+  |:-----:|:------:|
+  |Tên Use Case|Kết nạp người chơi|
+  |Mô tả|Kết nạp người chơi mới|
+  |Actor|Hệ thống|
+  |Điều kiện kích hoạt|Khi người dùng đăng ký thành công|
+  |Tiền điều kiện|Người chơi đã đăng ký tài khoản|
+  |Hậu điều kiện|Cấp quyền truy cập vào tài khoản đã đăng ký|
 
-|Tiêu đề|Nội dung|
-|:-----:|:------:|
-|Tên Use Case|Cập nhật thông tin người chơi|
-|Mô tả|Cho phép admin cập nhật thông tin người chơi|
-|Actor|Admin|
-|Điều kiện kích hoạt|Khi admin chọn chức năng cập nhật thông tin người chơi|
-|Tiền điều kiện|Đã đăng nhập|
-|Hậu điều kiện|Cập nhật thành công|
+  |Tiêu đề|Nội dung|
+  |:-----:|:------:|
+  |Tên Use Case|Cập nhật thông tin người chơi|
+  |Mô tả|Cho phép admin cập nhật thông tin người chơi|
+  |Actor|Admin|
+  |Điều kiện kích hoạt|Khi admin chọn chức năng cập nhật thông tin người chơi|
+  |Tiền điều kiện|Đã đăng nhập|
+  |Hậu điều kiện|Cập nhật thành công|
 
-|Tiêu đề|Nội dung|
-|:-----:|:------:|
-|Tên Use Case|Thêm người chơi|
-|Mô tả|Cho phép admin thêm người chơi |
-|Actor|Admin|
-|Điều kiện kích hoạt|Khi admin chọn chức năng thêm người chơi|
-|Tiền điều kiện|Đã đăng nhập|
-|Hậu điều kiện|Thêm thành công|
+  |Tiêu đề|Nội dung|
+  |:-----:|:------:|
+  |Tên Use Case|Thêm người chơi|
+  |Mô tả|Cho phép admin thêm người chơi |
+  |Actor|Admin|
+  |Điều kiện kích hoạt|Khi admin chọn chức năng thêm người chơi|
+  |Tiền điều kiện|Đã đăng nhập|
+  |Hậu điều kiện|Thêm thành công|
 
-|Tiêu đề|Nội dung|
-|:-----:|:------:|
-|Tên Use Case|Xóa người chơi|
-|Mô tả|Cho phép admin xóa người chơi |
-|Actor|Admin|
-|Điều kiện kích hoạt|Khi admin chọn chức năng xóa người chơi|
-|Tiền điều kiện|Đã đăng nhập|
-|Hậu điều kiện|Xóa thành công|
+  |Tiêu đề|Nội dung|
+  |:-----:|:------:|
+  |Tên Use Case|Xóa người chơi|
+  |Mô tả|Cho phép admin xóa người chơi |
+  |Actor|Admin|
+  |Điều kiện kích hoạt|Khi admin chọn chức năng xóa người chơi|
+  |Tiền điều kiện|Đã đăng nhập|
+  |Hậu điều kiện|Xóa thành công|
 
-|Tiêu đề|Nội dung|
-|:-----:|:------:|
-|Tên Use Case|Thống kê số người chơi trong tháng|
-|Mô tả|Cho phép admin thống kê số người chơi trong tháng|
-|Actor|Admin|
-|Điều kiện kích hoạt|Khi admin chọn chức năng thống kê số người chơi trong tháng|
-|Tiền điều kiện|Đã đăng nhập|
-|Hậu điều kiện|Thống kê thành công|
+  |Tiêu đề|Nội dung|
+  |:-----:|:------:|
+  |Tên Use Case|Thống kê số người chơi trong tháng|
+  |Mô tả|Cho phép admin thống kê số người chơi trong tháng|
+  |Actor|Admin|
+  |Điều kiện kích hoạt|Khi admin chọn chức năng thống kê số người chơi trong tháng|
+  |Tiền điều kiện|Đã đăng nhập|
+  |Hậu điều kiện|Thống kê thành công|
 
 - Sơ đồ BPM (Business Process Model) cho từng nghiệp vụ:
 ![image](https://github.com/lqt1893/3V2T/assets/93394403/396accd0-9e9c-41b2-b361-6f03fb909f27)
