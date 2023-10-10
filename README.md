@@ -35,45 +35,45 @@
  +	Thuật toán AI: Hệ thống chơi cờ caro đồ án sử dụng thuật toán AI để điều khiển quân cờ của máy. Thuật toán AI này được thiết kế để có thể chơi cờ caro ở mức độ cao.
 -	Trình bày chi tiết quy trình nghiệp vụ của từng công việc diễn ra bên trong hệ thống:
 - Quy trình nghiệp vụ khởi động hệ thống
- * Bước 1: Người chơi khởi động hệ thống chơi cờ caro đồ án bằng cách nhấn vào biểu tượng của hệ thống trên màn hình máy tính.
- * Bước 2: Hệ thống sẽ kiểm tra các yêu cầu hệ thống và khởi động các thành phần cần thiết.
- * Bước 3: Hệ thống sẽ hiển thị giao diện người dùng cho người chơi.
+ + Bước 1: Người chơi khởi động hệ thống chơi cờ caro đồ án bằng cách nhấn vào biểu tượng của hệ thống trên màn hình máy tính.
+ + Bước 2: Hệ thống sẽ kiểm tra các yêu cầu hệ thống và khởi động các thành phần cần thiết.
+ + Bước 3: Hệ thống sẽ hiển thị giao diện người dùng cho người chơi.
 - Quy trình nghiệp vụ chọn chế độ chơi
- * Bước 1: Người chơi chọn tab "Chế độ chơi" trên giao diện người dùng.
- * Bước 2: Hệ thống sẽ hiển thị danh sách các chế độ chơi.
- * Bước 3: Người chơi chọn chế độ chơi mong muốn.
+ + Bước 1: Người chơi chọn tab "Chế độ chơi" trên giao diện người dùng.
+ + Bước 2: Hệ thống sẽ hiển thị danh sách các chế độ chơi.
+ + Bước 3: Người chơi chọn chế độ chơi mong muốn.
 - Quy trình nghiệp vụ chọn màu quân cờ
- * Bước 1: Người chơi chọn tab "Màu quân cờ" trên giao diện người dùng.
- * Bước 2: Hệ thống sẽ hiển thị danh sách các màu quân cờ.
- * Bước 3: Người chơi chọn màu quân cờ mong muốn.
+ + Bước 1: Người chơi chọn tab "Màu quân cờ" trên giao diện người dùng.
+ + Bước 2: Hệ thống sẽ hiển thị danh sách các màu quân cờ.
+ + Bước 3: Người chơi chọn màu quân cờ mong muốn.
 - Quy trình nghiệp vụ bắt đầu trò chơi
- * Bước 1: Người chơi nhấn vào nút "Bắt đầu" trên giao diện người dùng.
- * Bước 2: Hệ thống sẽ bắt đầu trò chơi và hiển thị bàn cờ trống.
- * Bước 3: Người chơi bắt đầu trò chơi bằng cách đặt quân cờ của mình vào ô vuông trống đầu tiên.
+ + Bước 1: Người chơi nhấn vào nút "Bắt đầu" trên giao diện người dùng.
+ + Bước 2: Hệ thống sẽ bắt đầu trò chơi và hiển thị bàn cờ trống.
+ + Bước 3: Người chơi bắt đầu trò chơi bằng cách đặt quân cờ của mình vào ô vuông trống đầu tiên.
 - Quy trình nghiệp vụ thay phiên nhau đặt quân cờ
- * Bước 1: Người chơi chọn ô vuông trống mà họ muốn đặt quân cờ.
- * Bước 2: Người chơi nhấn vào nút "Đặt quân cờ" trên giao diện người dùng.
- * Bước 3: Hệ thống sẽ đặt quân cờ của người chơi vào ô vuông đã chọn.
- * Bước 4: Người chơi tiếp theo sẽ thực hiện bước 1 đến bước 3 để đặt quân cờ của mình.
+ + Bước 1: Người chơi chọn ô vuông trống mà họ muốn đặt quân cờ.
+ + Bước 2: Người chơi nhấn vào nút "Đặt quân cờ" trên giao diện người dùng.
+ + Bước 3: Hệ thống sẽ đặt quân cờ của người chơi vào ô vuông đã chọn.
+ + Bước 4: Người chơi tiếp theo sẽ thực hiện bước 1 đến bước 3 để đặt quân cờ của mình.
 - Quy trình nghiệp vụ tạo hàng liên tiếp 5 quân cờ
- * Bước 1: Người chơi đặt 5 quân cờ của mình thành một hàng liên tiếp theo chiều ngang, dọc hoặc chéo.
- * Bước 2: Người chơi đó sẽ giành chiến thắng.
+ + Bước 1: Người chơi đặt 5 quân cờ của mình thành một hàng liên tiếp theo chiều ngang, dọc hoặc chéo.
+ + Bước 2: Người chơi đó sẽ giành chiến thắng.
 - Quy trình nghiệp vụ kết thúc trò chơi
- * Bước 1: Trò chơi kết thúc khi một trong hai người chơi tạo thành một hàng liên tiếp 5 quân cờ của mình hoặc khi không còn ô vuông trống trên bàn cờ.
- * Bước 2: Hệ thống sẽ hiển thị thông báo kết quả trò chơi.
+ + Bước 1: Trò chơi kết thúc khi một trong hai người chơi tạo thành một hàng liên tiếp 5 quân cờ của mình hoặc khi không còn ô vuông trống trên bàn cờ.
+ + Bước 2: Hệ thống sẽ hiển thị thông báo kết quả trò chơi.
 - Quy trình nghiệp vụ chơi cờ caro 1 người
- * Bước 1: Người chơi chọn chế độ chơi "1 người".
- * Bước 2: Hệ thống sẽ tạo ra một đối thủ AI để chơi cùng người chơi.
- * Bước 3: Người chơi và đối thủ AI sẽ thay phiên nhau đặt quân cờ theo quy trình nghiệp vụ thay phiên nhau đặt quân cờ.
- * Bước 4: Người chơi hoặc đối thủ AI sẽ giành chiến thắng theo quy trình nghiệp vụ tạo hàng liên tiếp 5 quân cờ.
+ + Bước 1: Người chơi chọn chế độ chơi "1 người".
+ + Bước 2: Hệ thống sẽ tạo ra một đối thủ AI để chơi cùng người chơi.
+ + Bước 3: Người chơi và đối thủ AI sẽ thay phiên nhau đặt quân cờ theo quy trình nghiệp vụ thay phiên nhau đặt quân cờ.
+ + Bước 4: Người chơi hoặc đối thủ AI sẽ giành chiến thắng theo quy trình nghiệp vụ tạo hàng liên tiếp 5 quân cờ.
 - Quy trình nghiệp vụ chơi cờ caro 2 người
- * Bước 1: Hai người chơi chọn chế độ chơi "2 người".
- * Bước 2: Hai người chơi sẽ thay phiên nhau đặt quân cờ theo quy trình nghiệp vụ thay phiên nhau đặt quân cờ.
- * Bước 3: Hai người chơi sẽ giành chiến thắng theo quy trình nghiệp vụ tạo hàng liên tiếp 5 quân cờ.
+ + Bước 1: Hai người chơi chọn chế độ chơi "2 người".
+ + Bước 2: Hai người chơi sẽ thay phiên nhau đặt quân cờ theo quy trình nghiệp vụ thay phiên nhau đặt quân cờ.
+ + Bước 3: Hai người chơi sẽ giành chiến thắng theo quy trình nghiệp vụ tạo hàng liên tiếp 5 quân cờ.
 - Quy trình nghiệp vụ sử dụng thuật toán AI
- * Bước 1: Hệ thống sẽ sử dụng thuật toán AI để đánh giá các khả năng đặt quân cờ của mình.
- * Bước 2: Hệ thống sẽ chọn khả năng đặt quân cờ có khả năng chiến thắng cao nhất.
- * Bước 3: Hệ thống sẽ đặt quân cờ của mình vào ô vuông trống theo khả năng đã chọn.
+ + Bước 1: Hệ thống sẽ sử dụng thuật toán AI để đánh giá các khả năng đặt quân cờ của mình.
+ + Bước 2: Hệ thống sẽ chọn khả năng đặt quân cờ có khả năng chiến thắng cao nhất.
+ + Bước 3: Hệ thống sẽ đặt quân cờ của mình vào ô vuông trống theo khả năng đã chọn.
 ### Yêu cầu phần mềm
 #### Yêu cầu chức năng
 - Kết nạp người chơi mới
