@@ -127,5 +127,14 @@ Bước 3: Hệ thống sẽ đặt quân cờ của mình vào ô vuông trốn
 |Tiền điều kiện|Người dùng chưa có tài khoản|
 |Hậu điều kiện|Đăng ký thành công|
 
+|Tiêu đề|Nội dung|
+|:-----:|:------:|
+|Tên Use Case|Đăng nhập|
+|Mô tả|Cho phép người dùng đăng nhập|
+|Actor|Người chơi, admin|
+|Điều kiện kích hoạt|Khi người dùng chọn chức năng đăng nhập|
+|Tiền điều kiện|Người dùng đã có tài khoản|
+|Hậu điều kiện|Đăng nhập thành công|
+
 - Sơ đồ BPM (Business Process Model) cho từng nghiệp vụ:
 ***
