@@ -136,5 +136,95 @@ Bước 3: Hệ thống sẽ đặt quân cờ của mình vào ô vuông trốn
 |Tiền điều kiện|Người dùng đã có tài khoản|
 |Hậu điều kiện|Đăng nhập thành công|
 
+|Tiêu đề|Nội dung|
+|:-----:|:------:|
+|Tên Use Case|Tiếp tục ván đấu|
+|Mô tả|Cho phép người dùng tiếp tục ván đấu|
+|Actor|Người chơi|
+|Điều kiện kích hoạt|Khi người dùng chọn chức năng tiếp tục ván đấu|
+|Tiền điều kiện|Người dùng đã đăng nhập và đã tạo ván đấu trước đó|
+|Hậu điều kiện|Tiếp tục ván đấu thành công|
+
+|Tiêu đề|Nội dung|
+|:-----:|:------:|
+|Tên Use Case|Xem thông tin người chơi|
+|Mô tả|Cho phép người dùng xem thông tin|
+|Actor|Người chơi|
+|Điều kiện kích hoạt|Khi người dùng chọn chức năng xem thông tin người chơi|
+|Tiền điều kiện|Người dùng đã có đăng nhập|
+|Hậu điều kiện|Xem thông tin thành công|
+
+|Tiêu đề|Nội dung|
+|:-----:|:------:|
+|Tên Use Case|Xem thứ hạng bản thân|
+|Mô tả|Cho phép người dùng xem thứ hạng bản thân|
+|Actor|Người chơi|
+|Điều kiện kích hoạt|Khi người dùng chọn chức năng xem thứ hạng bản thân|
+|Tiền điều kiện|Người dùng đã đăng nhập|
+|Hậu điều kiện|Xem thứ hạng thành công|
+
+|Tiêu đề|Nội dung|
+|:-----:|:------:|
+|Tên Use Case|Báo lỗi xác thực|
+|Mô tả|Báo lỗi khi đăng nhập không thành công|
+|Actor|Hệ thống|
+|Điều kiện kích hoạt|Khi người dùng đăng nhập không thành công|
+|Tiền điều kiện|Người dùng sai thông tin đăng nhập|
+|Hậu điều kiện|Xuất ra thông báo lỗi|
+
+|Tiêu đề|Nội dung|
+|:-----:|:------:|
+|Tên Use Case|Xác thực tài khoản|
+|Mô tả|Cấp quyền truy cập khi đăng nhập thành công|
+|Actor|Hệ thống|
+|Điều kiện kích hoạt|Khi người dùng đăng nhập thành công|
+|Tiền điều kiện|Người dùng nhập đúng thông tin đăng nhập|
+|Hậu điều kiện|Cấp quyền truy cập|
+
+|Tiêu đề|Nội dung|
+|:-----:|:------:|
+|Tên Use Case|Kết nạp người chơi|
+|Mô tả|Kết nạp người chơi mới|
+|Actor|Hệ thống|
+|Điều kiện kích hoạt|Khi người dùng đăng ký thành công|
+|Tiền điều kiện|Người chơi đã đăng ký tài khoản|
+|Hậu điều kiện|Cấp quyền truy cập vào tài khoản đã đăng ký|
+
+|Tiêu đề|Nội dung|
+|:-----:|:------:|
+|Tên Use Case|Cập nhật thông tin người chơi|
+|Mô tả|Cho phép admin cập nhật thông tin người chơi|
+|Actor|Admin|
+|Điều kiện kích hoạt|Khi admin chọn chức năng cập nhật thông tin người chơi|
+|Tiền điều kiện|Đã đăng nhập|
+|Hậu điều kiện|Cập nhật thành công|
+
+|Tiêu đề|Nội dung|
+|:-----:|:------:|
+|Tên Use Case|Thêm người chơi|
+|Mô tả|Cho phép admin thêm người chơi |
+|Actor|Admin|
+|Điều kiện kích hoạt|Khi admin chọn chức năng thêm người chơi|
+|Tiền điều kiện|Đã đăng nhập|
+|Hậu điều kiện|Thêm thành công|
+
+|Tiêu đề|Nội dung|
+|:-----:|:------:|
+|Tên Use Case|Xóa người chơi|
+|Mô tả|Cho phép admin xóa người chơi |
+|Actor|Admin|
+|Điều kiện kích hoạt|Khi admin chọn chức năng xóa người chơi|
+|Tiền điều kiện|Đã đăng nhập|
+|Hậu điều kiện|Xóa thành công|
+
+|Tiêu đề|Nội dung|
+|:-----:|:------:|
+|Tên Use Case|Thống kê số người chơi trong tháng|
+|Mô tả|Cho phép admin thống kê số người chơi trong tháng|
+|Actor|Admin|
+|Điều kiện kích hoạt|Khi admin chọn chức năng thống kê số người chơi trong tháng|
+|Tiền điều kiện|Đã đăng nhập|
+|Hậu điều kiện|Thống kê thành công|
+
 - Sơ đồ BPM (Business Process Model) cho từng nghiệp vụ:
 ***
