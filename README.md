@@ -230,3 +230,10 @@
 - Sơ đồ BPM (Business Process Model) cho từng nghiệp vụ:
 ![image](https://github.com/lqt1893/3V2T/assets/93394403/396accd0-9e9c-41b2-b361-6f03fb909f27)
 ***
+## PHÂN TÍCH PHẦN MỀM
+### Giới thiệu sự cần thiết và tầm quan trọng của giai đoạn phân tích
+  Giai đoạn phân tích là giai đoạn đầu tiên và quan trọng nhất trong quy trình phát triển phần mềm. Giai đoạn này có nhiệm vụ thu thập, phân tích và hiểu rõ các yêu cầu của hệ thống phần mềm từ khách hàng.
+  Sự cần thiết và tầm quan trọng của giai đoạn phân tích được thể hiện ở các điểm sau:
+  - Đảm bảo hệ thống phần mềm đáp ứng đúng nhu cầu của khách hàng: Giai đoạn phân tích giúp thu thập và hiểu rõ các yêu cầu của khách hàng, từ đó đảm bảo hệ thống phần mềm được xây dựng đáp ứng đúng nhu cầu của khách hàng.
+  - Giảm thiểu chi phí và thời gian phát triển phần mềm: Giai đoạn phân tích giúp phát hiện sớm các vấn đề và sai sót, từ đó giúp giảm thiểu chi phí và thời gian phát triển phần mềm.
+  - Nâng cao chất lượng phần mềm: Giai đoạn phân tích giúp đảm bảo hệ thống phần mềm được xây dựng một cách khoa học và chặt chẽ, từ đó nâng cao chất lượng phần mềm.
