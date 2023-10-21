@@ -232,8 +232,54 @@
 ***
 ## PHÂN TÍCH PHẦN MỀM
 ### Giới thiệu sự cần thiết và tầm quan trọng của giai đoạn phân tích
-  Giai đoạn phân tích là giai đoạn đầu tiên và quan trọng nhất trong quy trình phát triển phần mềm. Giai đoạn này có nhiệm vụ thu thập, phân tích và hiểu rõ các yêu cầu của hệ thống phần mềm từ khách hàng.
-  Sự cần thiết và tầm quan trọng của giai đoạn phân tích được thể hiện ở các điểm sau:
-  - Đảm bảo hệ thống phần mềm đáp ứng đúng nhu cầu của khách hàng: Giai đoạn phân tích giúp thu thập và hiểu rõ các yêu cầu của khách hàng, từ đó đảm bảo hệ thống phần mềm được xây dựng đáp ứng đúng nhu cầu của khách hàng.
-  - Giảm thiểu chi phí và thời gian phát triển phần mềm: Giai đoạn phân tích giúp phát hiện sớm các vấn đề và sai sót, từ đó giúp giảm thiểu chi phí và thời gian phát triển phần mềm.
-  - Nâng cao chất lượng phần mềm: Giai đoạn phân tích giúp đảm bảo hệ thống phần mềm được xây dựng một cách khoa học và chặt chẽ, từ đó nâng cao chất lượng phần mềm.
+- Giai đoạn phân tích là giai đoạn đầu tiên và quan trọng nhất trong quy trình phát triển phần mềm. Giai đoạn này có nhiệm vụ thu thập, phân tích và hiểu rõ các yêu cầu của hệ thống phần mềm từ khách hàng.
+- Sự cần thiết và tầm quan trọng của giai đoạn phân tích được thể hiện ở các điểm sau:
+  + Đảm bảo hệ thống phần mềm đáp ứng đúng nhu cầu của khách hàng: Giai đoạn phân tích giúp thu thập và hiểu rõ các yêu cầu của khách hàng, từ đó đảm bảo hệ thống phần mềm được xây dựng đáp ứng đúng nhu cầu của khách hàng.
+  + Giảm thiểu chi phí và thời gian phát triển phần mềm: Giai đoạn phân tích giúp phát hiện sớm các vấn đề và sai sót, từ đó giúp giảm thiểu chi phí và thời gian phát triển phần mềm.
+  + Nâng cao chất lượng phần mềm: Giai đoạn phân tích giúp đảm bảo hệ thống phần mềm được xây dựng một cách khoa học và chặt chẽ, từ đó nâng cao chất lượng phần mềm.
+### Phân tích dữ liệu
+#### Giới thiệu mô hình thực thể kết hợp ERD (mô hình dữ liệu mức quan niệm - CDM)
+- Mô hình thực thể kết hợp (ERD) là một sơ đồ mô hình hóa dữ liệu được sử dụng để mô tả các thực thể và mối quan hệ giữa chúng trong một hệ thống. ERD là một công cụ quan trọng trong việc thiết kế cơ sở dữ liệu, giúp các nhà phát triển hiểu rõ hơn về dữ liệu mà họ sẽ lưu trữ và cách dữ liệu đó sẽ được sử dụng.
+- ERD có một số đặc điểm cơ bản sau:
+  + Sử dụng các biểu tượng để đại diện cho các thực thể và mối quan hệ. Các biểu tượng ERD tiêu chuẩn bao gồm:
+    * Thực thể: Một đối tượng cụ thể trong thế giới thực, chẳng hạn như một người, một sản phẩm hoặc một địa điểm. Các thực thể được biểu thị bằng các hình chữ nhật.
+    * Mối quan hệ: Một liên kết giữa hai hoặc nhiều thực thể. Các mối quan hệ được biểu thị bằng các đường nối các thực thể.
+  + Sử dụng các thuộc tính để mô tả các thực thể. Các thuộc tính là các phần thông tin được lưu trữ về một thực thể. Các thuộc tính được biểu thị bằng các vòng tròn nhỏ bên cạnh các thực thể.
+  + Sử dụng các khóa chính và khóa ngoại để xác định các thực thể. Khóa chính là một thuộc tính duy nhất xác định một thực thể. Khóa ngoại là một thuộc tính tham chiếu đến khóa chính của một thực thể khác.
+  ERD có một số chức năng chính sau:
+  + Hỗ trợ việc hiểu và phân tích dữ liệu. ERD giúp các nhà phát triển hiểu rõ hơn về dữ liệu mà họ sẽ lưu trữ và cách dữ liệu đó sẽ được sử dụng. Điều này có thể giúp họ tránh các lỗi thiết kế và đảm bảo rằng cơ sở dữ liệu đáp ứng được nhu cầu của doanh nghiệp.
+  + Hỗ trợ việc thiết kế cơ sở dữ liệu. ERD là một công cụ quan trọng trong việc thiết kế cơ sở dữ liệu. Nó giúp các nhà phát triển xác định các thực thể và mối quan hệ cần thiết cho cơ sở dữ liệu.
+  + Hỗ trợ việc giao tiếp với các bên liên quan. ERD là một công cụ hữu ích để giao tiếp với các bên liên quan về thiết kế cơ sở dữ liệu. Nó giúp các nhà phát triển mô tả một cách trực quan các thực thể và mối quan hệ trong hệ thống.
+#### Mô hình thực thể kết hợp
+![image](https://github.com/lqt1893/3V2T/assets/93394403/6491a3ad-8967-4eea-babb-3170c91782fa)
+#### Sưu liệu cho mô hình thực thể kết hợp
+Các thông tin cơ bản của mô hình thực thể kết hợp 
+  - Thực thể:
+    +	Game: Ván đấu được tạo ra khi người chơi thực hiện chứ năng tạo ván đấu.
+    +	User: Là người chơi. Sau khi đăng nhập, người chơi có thể sử dụng các chức năng của trò chơi và thông tin của người chơi và ván đấu sẽ được lưu trong CSDL.
+  - Thuộc tính:
+    +	Game:
+      •	id: Mã trận đấu.
+      •	player_id: Mã người chơi.
+      •	opponent_name: Tên đối thủ.
+      •	score: Điểm số của trận đấu.
+      •	game_type: Loại trò chơi.
+      •	difficulty: Độ khó của trò chơi.
+      •	play_time: Thời gian chơi.
+      •	start_time: Thời gian bắt đầu.
+      •	status: Trạng thái của trận đấu.
+      •	data: Dữ liệu của trận đấu.
+      •	next_move: Lượt đi tiếp theo (Dùng cho chức năng lưu ván đấu).
+    +	User:
+      •	id: Mã người chơi.
+      •	name: Tên người chơi.
+      •	username: Tên tài khoản.
+      •	password: Mật khẩu.
+      •	email: Địa chỉ email.
+      •	admin: Người quản lý (kiểm tra xem user có phải là quản lí).
+      •	score: Điểm số của người chơi.
+  –	Mối quan hệ giữa các thực thể:
+    +	Một người chơi có thể tham gia nhiều trận đấu.
+    +	Một trận đấu có thể có nhiều người chơi.
+    +	Một admin có thể quản lí nhiều người chơi.
+
