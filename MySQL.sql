@@ -13,6 +13,7 @@ CREATE TABLE `caro`.`user`(
 CREATE TABLE `caro`.`game`(
     `ID` VARCHAR(10) NOT NULL,
     `PLAYER_ID` VARCHAR(10) NOT NULL,
+    `OPPONENT_NAME` VARCHAR(20) NULL DEFAULT NULL,
     `SCORE` INT NOT NULL DEFAULT '0',
     `GAME_TYPE` VARCHAR(10) NOT NULL,
     `DIFFICULTY` INT NOT NULL,
@@ -23,12 +24,6 @@ CREATE TABLE `caro`.`game`(
     `NEXTMOVE` BOOLEAN NULL DEFAULT NULL,
     PRIMARY KEY(`ID`),
     FOREIGN KEY(`PLAYER_ID`) REFERENCES `user`(`ID`)
-) ENGINE = InnoDB;
-CREATE TABLE `caro`.`opponent`(
-    `ID` VARCHAR(10) NOT NULL,
-    `OPPONENT_NAME` VARCHAR(20) NULL DEFAULT NULL,
-    PRIMARY KEY(`ID`),
-    FOREIGN KEY(`ID`) REFERENCES `game`(`ID`)
 ) ENGINE = InnoDB;
 CREATE PROCEDURE `caro`.`themnguoichoi`(
     IN `name` VARCHAR(20),
@@ -75,12 +70,4 @@ CREATE PROCEDURE `caro`.`suannguoichoitheousername`(
 )
 BEGIN
     UPDATE `user` SET `NAME` = name, `PASSWORD` = password, `EMAIL` = email, `ADMIN` = admin, `SCORE` = score WHERE `USERNAME` = username;
-END;
-CREATE TRIGGER `caro`.`xoanguoichoi` BEFORE DELETE ON `user` FOR EACH ROW
-BEGIN
-    DELETE FROM `game` WHERE `PLAYER_ID` = OLD.ID;
-END;
-CREATE TRIGGER `caro`.`xoanguoichoitheousername` BEFORE DELETE ON `user` FOR EACH ROW
-BEGIN
-    DELETE FROM `game` WHERE `PLAYER_ID` = OLD.ID;
 END;
