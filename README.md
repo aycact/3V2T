@@ -282,4 +282,3 @@ Các thông tin cơ bản của mô hình thực thể kết hợp
     +	Một người chơi có thể tham gia nhiều trận đấu.
     +	Một trận đấu có thể có nhiều người chơi.
     +	Một admin có thể quản lí nhiều người chơi.
-
